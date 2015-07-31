@@ -1,14 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\playeraccelrometer.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\backBtn.js">
     <Files>
-      <File FileName="Assets\scripts\reset.js" Line="10" Column="47" />
-      <File FileName="C:\Users\Pixolo\Desktop\Ultimater Underwater\Assets\Scripts\Snap.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\playBtn.js" Line="23" Column="8" />
-      <File FileName="Assets\scripts\levelBtn.js" Line="23" Column="3" />
-      <File FileName="Assets\scripts\practiseBtn.js" Line="23" Column="3" />
-      <File FileName="Assets\scripts\shopBtn.js" Line="17" Column="49" />
-      <File FileName="Assets\scripts\playeraccelrometer.js" Line="8" Column="10" />
+      <File FileName="Assets\scripts\backBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\reset.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\playBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\levelBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\practiseBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\shopBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\playeraccelrometer.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
