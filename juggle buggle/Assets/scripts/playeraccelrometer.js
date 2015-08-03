@@ -16,7 +16,8 @@ if(touch==true)
 if(playercollider.IsTouching(ballcollider))
 {
 touch=false;
-Debug.Log('count');
+GameControl.control.score++;
+//Debug.Log('count');
 }
 }
 if(touch==false)

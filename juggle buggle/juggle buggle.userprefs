@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\groundcolliding.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\GameControl.js">
     <Files>
-      <File FileName="Assets\scripts\playeraccelrometer.js" Line="45" Column="2" />
-      <File FileName="juggle buggle.sln" Line="41" Column="1" />
-      <File FileName="Assets\scripts\groundcolliding.js" Line="16" Column="2" />
+      <File FileName="Assets\scripts\playeraccelrometer.js" Line="19" Column="28" />
+      <File FileName="juggle buggle.sln" Line="1" Column="1" />
+      <File FileName="Assets\scripts\groundcolliding.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\backBtn.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\GameControl.js" Line="16" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
