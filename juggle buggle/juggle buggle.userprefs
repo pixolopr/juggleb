@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\groundcolliding.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\pauseBtn.js">
     <Files>
-      <File FileName="Assets\scripts\Scores.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\GameControl.js" Line="46" Column="33" />
-      <File FileName="Assets\scripts\groundcolliding.js" Line="11" Column="2" />
-      <File FileName="Assets\scripts\playeraccelrometer.js" Line="30" Column="2" />
-      <File FileName="Assets\scripts\pauseBtn.js" Line="38" Column="3" />
+      <File FileName="Assets\scripts\pauseBtn.js" Line="58" Column="1" />
+      <File FileName="Assets\scripts\GameControl.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

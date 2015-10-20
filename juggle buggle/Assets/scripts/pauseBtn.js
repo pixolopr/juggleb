@@ -1,7 +1,10 @@
 ﻿#pragma strict
 var clicked:boolean;
+var angularvelo:float;
+var velocity:Vector3;
 public var football:GameObject;
 function Start () {
+Debug.Log(football);
 clicked = false;
 }
 
@@ -28,6 +31,11 @@ clicked=!clicked;
 }
 if(clicked==true)
 {
+if(football.GetComponent.<Rigidbody2D>().angularVelocity!=0f)
+{
+angularvelo=football.GetComponent.<Rigidbody2D>().angularVelocity;
+velocity=football.GetComponent.<Rigidbody2D>().velocity;
+}
 football.GetComponent.<Rigidbody2D>().velocity=Vector3.zero;
 football.GetComponent.<Rigidbody2D>().angularVelocity=0f;
 football.GetComponent.<Rigidbody2D>().gravityScale=0f;
@@ -35,8 +43,15 @@ football.GetComponent.<Rigidbody2D>().gravityScale=0f;
 }
 if(clicked==false)
 {
+if(football.GetComponent.<Rigidbody2D>().gravityScale==0f)
+{
+football.GetComponent.<Rigidbody2D>().angularVelocity=angularvelo;
+football.GetComponent.<Rigidbody2D>().velocity=velocity;
+Debug.Log(angularvelo);
+}
 //football.GetComponent.<Rigidbody2D>().velocity=Vector3.zero;
 //football.GetComponent.<Rigidbody2D>().angularVelocity=0f;
 football.GetComponent.<Rigidbody2D>().gravityScale=0.8;
 }
 }
+
